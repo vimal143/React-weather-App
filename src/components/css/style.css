@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fraunces', serif;
+
+}
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Fraunces', serif;
+    
+}
+html{
+    font-size: 100%;
+    height: 100%;
+    
+}
+html{
+    background: #eee;
+}
+.box{
+    width: 25vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+    background: url(../assets/Dkj2eo.jpg);
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    min-width: 20rem;
+    min-height: 35rem;
+}
+.box:after{
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transform: translate3d(0,0,0);
+}
+.inputData{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.inputField{
+    border-radius: 12px;
+    height: 30px;
+    width: 60%;
+    border-style: none;
+    padding-left: 10px;
+}
+.weather-description{
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    margin-top: 50px;
+    color: fuchsia;
+
+    
+}
+.temperature{
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 100px;
+    font-family: 'Fraunces', serif;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9.4rem;
+    
+}
+.Column {
+    flex: 1 1 0px;
+    padding: 0.5rem;
+}
+.temp{
+    text-align: center;
+    margin: 0.6rem;
+}
+.wind{
+    background: #eee;
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+.wind-speed{
+    background-color: #eee;
+    font-size: 13px;
+    font-weight: 400;
+}
+.humidity{
+    background: #eee;
+    font-size: 13px;
+    font-weight: 400;
+}
+.humidity-amount{
+    background: #eee;
+    font-size: 13px;
+    font-weight: 400;
+
+}
